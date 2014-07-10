@@ -1,0 +1,17 @@
+{
+  "name": "animations",
+  "version": "0.0.0",
+  "description": "CSS animations from Papers",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js",
+    "test": "npm test"
+  },
+  "author": "Ericat",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.2.1",
+    "express": "^4.5.1",
+    "jade": "^1.3.1"
+  }
+}
