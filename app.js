@@ -10,5 +10,6 @@ app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', routes.index);
+app.get('/papers', routes.papers);
 
 module.exports = app;
