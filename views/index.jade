@@ -9,25 +9,24 @@ html(lang="en")
     script(src="/js/retina.min.js")
   body
     #navbar
-    #outer
-      #animation-box
-        .logo
-          img(src="/img/logo.png", data-at2x="/img/logo@2x.png")
-        .base
-        .big-cloud
-          img(src="/img/bigcloud.png", data-at2x="/img/bigcloud@2x.png")
-        .mid-cloud
-          img(src="/img/midcloud.png", data-at2x="/img/midcloud@2x.png")
-        .small-cloud
-          img(src="/img/smallcloud.png", data-at2x="/img/smallcloud@2x.png")
-        .library
-          img(src="/img/library-hook.png")
-        .crane
-          img(src="/img/longcrane.png", data-at2x="/img/longcrane@2x.png")
-        .bucket
-        .bucket.bucket-two
-        .hide-ladder
-        .beta
-          img(src="/img/beta.png", data-at2x="/img/beta@2x.png")
-        .ladder
-          img(src="/img/ladder.png", data-at2x="/img/ladder@2x.png")
+    #resolution
+      #outer
+        #animation-box
+          .logo
+            img(src="/img/#{page}-logo.png", data-at2x="/img/#{page}-logo@2x.png")
+          if page === 'ios'
+            #ios for iOS
+          .base
+          .big-cloud
+            img(src="/img/bigcloud.png", data-at2x="/img/bigcloud@2x.png")
+          .mid-cloud
+            img(src="/img/midcloud.png", data-at2x="/img/midcloud@2x.png")
+          .small-cloud
+            img(src="/img/smallcloud.png", data-at2x="/img/smallcloud@2x.png")
+          .library
+            img(src="/img/library-hook.png")
+          .crane
+            img(src="/img/longcrane.png", data-at2x="/img/longcrane@2x.png")
+          .bucket
+          .bucket.bucket-two
+          .hide-ladder

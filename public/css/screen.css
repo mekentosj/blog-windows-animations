@@ -30,6 +30,20 @@ body, html {
   top: 150px;
 }
 
+#ios {
+  position: absolute;
+  right: 150px;
+  top: 250px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: #2395D4;
+  font-weight: 300;
+  letter-spacing: 1px;
+  height: 28px;
+  line-height: 28.6000003814697px;
+}
+
+
 .base {
   width: 280px;
   height: 12px;
